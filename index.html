@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<style>
+			#header{background-color:#000;font-size:4.1vh;color:white;font-family:cursive;width:100vw;border-bottom:0.2vh solid white;}
+			#drop-nav{width:100vw;opacity:1;}
+			ul {list-style: none;padding: 0px;margin: 0px;}
+  			ul li {width:14.18vw;display: block;position: relative;float: left;border-right:0.1vh solid #fff;border-left:0.1vh solid #fff;}
+  			li ul {display: none;}
+  			ul li a {display: block;background: #000;padding: 5px 10px 5px 10px;text-decoration: none;white-space: nowrap;color: #fff;}
+  			ul li a:hover {background: #f00;}
+  			li:hover ul {display: block; position: absolute;}
+  			li:hover li {float: none;}
+  			li:hover a {background: #f00;}
+  			li:hover li a:hover {background: #000;}
+  			#drop-nav li ul li {border-top: 0px;}
+			#curr{background:#f00;}
+		</style>
+	</head>
+	<body style="background-image:url('wallpaper.jpg');background-size:cover;margin:0;padding:0;width:100vw;height:100vh;">
+		<div id="header">
+			<div id="hd" style="weight:1;width:95vw;display:inline-block;">
+				<center>PISNO</center>
+			</div>
+			<div id="uid" style="width:4.1vw;height:4.1vw;background:#f00;display:inline-block;border-radius:50%;">
+				<center>S</center>
+			</div>			
+		</div>
+		<ul id="drop-nav">
+  <li><a id="curr">Home</a></li>
+  <li><a href="#">Join</a></li>
+  <li><a href="#">Login</a></li>
+  <li><a href="#">About us</a></li>
+  <li><a href="#">Blog</a></li>
+  <li><a href="#">Our Apps</a>
+    <ul>
+      <li><a href="#">ICSE  CHEMISTRY</a></li>
+      <li><a href="#">Drupal</a></li>
+      <li><a href="#">WordPress</a></li>
+      <li><a href="#">Concrete 5</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Contact</a>
+    <ul>
+      <li><a href="#">General Inquiries</a></li>
+      <li><a href="#">Ask me a Question</a></li>
+    </ul>
+  </li>
+</ul>
+	</body>
+</html>
